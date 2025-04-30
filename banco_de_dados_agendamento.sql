@@ -43,7 +43,7 @@ CREATE TABLE agendamento_equipamentos (
     FOREIGN KEY (equipamento_id) REFERENCES equipamentos(id)
 );
 
-CREATE TABLE admins (
+CREATE TABLE admin (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
